@@ -1,0 +1,19 @@
+{
+  "name": "jitsie_blog_t",
+  "version": "1.0.0",
+  "description": "Blogs page for JITSIE",
+  "main": "./public/blogs_main.html",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "Bhashwar Sengupta",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
